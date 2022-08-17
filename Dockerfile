@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 
 ARG MONO_VERSION=5.18.1.0
 ENV MONO_VERSION $MONO_VERSION
