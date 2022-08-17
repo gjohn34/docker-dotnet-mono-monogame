@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1
 
-ARG MONO_VERSION=5.18.1.0
+ARG MONO_VERSION=6.12.0
 ENV MONO_VERSION $MONO_VERSION
 
 RUN apt update \
