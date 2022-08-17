@@ -11,7 +11,7 @@ RUN apt update \
 	&& apt-get install -y mono-devel fsharp mono-vbnc nuget referenceassemblies-pcl \
 	&& rm -rf /var/lib/apt/lists/*
 
-ARG MONOGAME_VERSION=3.7.1
+ARG MONOGAME_VERSION=3.8.1
 ENV MONOGAME_VERSION $MONOGAME_VERSION
 
 RUN apt-get update \
